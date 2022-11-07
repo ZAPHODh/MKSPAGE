@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./dist",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/context/AddToCart/reducer.js", "src/components/Products/index.jsx", "src/components/Products/Product/index.jsx", "src/components/Loading/index.jsx", "src/custom/hooks/useFetch.js", "src/context/sideOnOff.js", "src/context/CartContext/reducer.js", "src/context/CartContext/data.jsx", "src/context/CartContext/data.jsx", "src/components/SideBar/index.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
